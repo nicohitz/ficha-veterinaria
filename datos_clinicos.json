@@ -1,0 +1,3029 @@
+{
+  "Canino": {
+    "Examen Objetivo General (EOG)": {
+      "Frecuencia Cardíaca": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "lpm",
+        "rango_referencia": "70-160",
+        "Normal": "70-160 lpm"
+      },
+      "Frecuencia Respiratoria": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "rpm",
+        "rango_referencia": "10-30",
+        "Normal": "10-30 rpm"
+      },
+      "Temperatura": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "°C",
+        "rango_referencia": "37.5-39.2",
+        "Normal": "37.5-39.2 °C"
+      },
+      "TLLC": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "seg",
+        "rango_referencia": "< 2",
+        "Normal": "< 2 seg"
+      },
+      "Facie": {
+        "condicion_visible": "Siempre",
+        "Normal": "Simétrica, compuesta e inteligente",
+        "Alterado": [
+          "Asimétrica",
+          "Descompuesta",
+          "No inteligente"
+        ]
+      },
+      "Actitud - Estación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Decúbito": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Marcha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Conformación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Mesolíneo",
+        "Alterado": [
+          "Brevilíneo",
+          "Longilíneo"
+        ]
+      },
+      "Constitución": {
+        "condicion_visible": "Siempre",
+        "Normal": "Fuerte",
+        "Alterado": [
+          "Débil"
+        ]
+      },
+      "Estado de Nutrición": {
+        "condicion_visible": "Siempre",
+        "Normal": "Bueno",
+        "Alterado": [
+          "Excelente",
+          "Muy bueno",
+          "Regular",
+          "Malo"
+        ]
+      },
+      "Temperamento": {
+        "condicion_visible": "Siempre",
+        "Normal": "Sanguíneo",
+        "Alterado": [
+          "Linfático",
+          "Nervioso"
+        ]
+      },
+      "Mucosa Palpebral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Palpebral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Gingival/Labial": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Prepucial": {
+        "condicion_visible": {
+          "sexo": "Macho"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Vulvar": {
+        "condicion_visible": {
+          "sexo": "Hembra"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Anal": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      }
+    },
+    "Cabeza y Cuello": {
+      "Ojos": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simetría bilateral normal. Pupilas isocóricas. Conjuntiva rosada, sin secreciones oculares.",
+          "Alterado": [
+            "Asimetría palpebral",
+            "Anisocoria",
+            "Epífora",
+            "Secreción purulenta",
+            "Eritema conjuntival",
+            "Opacidad corneal",
+            "Prolapso del tercer párpado"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Globo ocular normotono. Sin dolor a la presión periocular.",
+          "Alterado": [
+            "Globo ocular tenso (posible glaucoma)",
+            "Globo ocular blando (posible uveítis)",
+            "Dolor a la presión periocular",
+            "Masa retrobulbar palpable"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Boca y Nariz": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Mucosa oral rosada, húmeda. Dientes y encías sanas, sin sarro significativo. Narinas permeables, sin secreciones.",
+          "Alterado": [
+            "Secreción nasal serosa",
+            "Secreción nasal purulenta",
+            "Úlceras orales",
+            "Sarro severo",
+            "Gingivitis",
+            "Masas orales",
+            "Estornudo inverso"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Mandíbula firme, sin dolor. Paladar duro íntegro. Sin masas palpables.",
+          "Alterado": [
+            "Dolor mandibular",
+            "Fisura palatina",
+            "Masa palpable en cavidad oral",
+            "Movilidad dental",
+            "Fractura mandibular"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Senos paranasales: resonancia normal, simétrica.",
+          "Alterado": [
+            "Matidez unilateral (posible sinusitis/masa)",
+            "Matidez bilateral"
+          ]
+        }
+      },
+      "Ganglios Mandibulares y Retrofaríngeos": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simetría visible en la región submandibular y retrofaríngea.",
+          "Alterado": [
+            "Asimetría visible",
+            "Aumento de volumen visible"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simétricos, tamaño normal, lisos, firmes, indoloros, móviles.",
+          "Alterado": [
+            "Aumentados de tamaño",
+            "Asimétricos",
+            "Dolorosos",
+            "Adheridos a planos profundos",
+            "Calientes",
+            "Superficie irregular"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Tráquea y Esófago": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin deformaciones visibles en la región ventral del cuello. Simetría normal.",
+          "Alterado": [
+            "Deformación cervical ventral",
+            "Aumento de volumen cervical",
+            "Colapso traqueal visible"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Reflejo tusígeno negativo. Deglución normal. Anillos traqueales palpables, firmes.",
+          "Alterado": [
+            "Reflejo tusígeno positivo (Tose)",
+            "Dolor a la palpación traqueal",
+            "Deformación de anillos traqueales",
+            "Dilatación esofágica palpable",
+            "Disfagia"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Ruido traqueal (respiratorio) normal. Sin estridor.",
+          "Alterado": [
+            "Estridor inspiratorio",
+            "Estridor espiratorio",
+            "Estertores traqueales",
+            "Ruidos de deglución anormales"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    },
+    "Tórax": {
+      "Conformación Torácica": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simétrico, movimientos respiratorios sincrónicos costoabdominales. Profundidad y frecuencia normales.",
+          "Alterado": [
+            "Asimetría torácica",
+            "Respiración con boca abierta",
+            "Tórax en tonel",
+            "Movimientos paradójicos",
+            "Uso de musculatura accesoria"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Elasticidad costal conservada. Sin frémito palpable. Sin thrill. Sin puntos dolorosos.",
+          "Alterado": [
+            "Frémito palpable (vibraciones anormales)",
+            "Thrill precordial",
+            "Dolor costal a la palpación",
+            "Crepitación subcutánea (enfisema)",
+            "Fractura costal palpable"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No corresponde — ver Área Pulmonar y Área Cardíaca para auscultación específica.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No corresponde — ver Área Pulmonar y Área Cardíaca para percusión específica.",
+          "Alterado": []
+        }
+      },
+      "Área Pulmonar": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tipo respiratorio costoabdominal. Frecuencia y profundidad normales. Sin esfuerzo respiratorio.",
+          "Alterado": [
+            "Tipo respiratorio abdominal exclusivo",
+            "Tipo respiratorio costal exclusivo",
+            "Disnea inspiratoria",
+            "Disnea espiratoria",
+            "Disnea mixta"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin frémitos palpables sobre el campo pulmonar.",
+          "Alterado": [
+            "Frémito pleural palpable",
+            "Vibraciones anormales sobre el campo pulmonar"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Murmullo vesicular presente, bilateral, simétrico. Flujo laminar. Sin ruidos agregados.",
+          "Alterado": [
+            "Disminución del murmullo vesicular",
+            "Silencio auscultatorio (posible derrame/neumotórax)",
+            "Crepitaciones inspiratorias",
+            "Crepitaciones espiratorias",
+            "Sibilancias",
+            "Estertores húmedos",
+            "Roce pleural"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sonido claro pulmonar en toda el área topográfica. Límites pulmonares normales.",
+          "Alterado": [
+            "Matidez (posible consolidación/derrame)",
+            "Sonido submate",
+            "Hipersonoridad (posible neumotórax/enfisema)",
+            "Timpanismo"
+          ]
+        }
+      },
+      "Área Cardíaca": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta visible en hemitórax izquierdo (4°-6° espacio intercostal).",
+          "Alterado": [
+            "Choque de punta no visible",
+            "Choque de punta desplazado",
+            "Choque de punta hiperdinámico"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta palpable en hemitórax izquierdo. Sin frémito precordial (thrill).",
+          "Alterado": [
+            "Thrill sistólico palpable",
+            "Thrill diastólico palpable",
+            "Choque de punta desplazado",
+            "Choque de punta débil o ausente"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Ritmo regular. 1° Ruido (S1 / DUM) y 2° Ruido (S2 / LUP) claros, bien definidos. Sin soplos.",
+          "Alterado": [
+            "Arritmia sinusal respiratoria",
+            "Soplo sistólico",
+            "Soplo diastólico",
+            "Soplo continuo",
+            "Ritmo de galope (S3/S4)",
+            "Desdoblamiento de ruidos",
+            "Ruidos cardíacos apagados (posible derrame pericárdico)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Matidez relativa y absoluta del área cardíaca dentro de límites normales.",
+          "Alterado": [
+            "Aumento del área de matidez cardíaca (cardiomegalia/derrame pericárdico)",
+            "Disminución del área de matidez cardíaca"
+          ]
+        }
+      }
+    },
+    "Abdomen y Pelvis": {
+      "Conformación Abdominal": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Forma simétrica, sin abultamientos anormales. Volumen proporcional a la conformación.",
+          "Alterado": [
+            "Distensión abdominal generalizada",
+            "Distensión abdominal localizada",
+            "Asimetría abdominal",
+            "Abdomen péndulo",
+            "Abdomen excavado (tabla)"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tensión parietal normal. Blando, depresible, no doloroso.",
+          "Alterado": [
+            "Tensión parietal aumentada (defensa muscular)",
+            "Dolor a la palpación superficial",
+            "Dolor a la palpación profunda",
+            "Signo de rebote positivo (peritonitis)"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Borborigmos (ruidos intestinales) presentes, normales en frecuencia e intensidad.",
+          "Alterado": [
+            "Borborigmos aumentados (hipermotilidad)",
+            "Borborigmos disminuidos (hipomotilidad)",
+            "Silencio abdominal (íleo)",
+            "Signo del chapoteo"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Timpanismo fisiológico sobre asas intestinales. Matidez hepática y vesical normales.",
+          "Alterado": [
+            "Timpanismo generalizado (meteorismo)",
+            "Matidez desplazable (ascitis)",
+            "Onda ascítica positiva",
+            "Pérdida de matidez hepática"
+          ]
+        }
+      },
+      "Órganos Abdominales": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "No valorable sin imágenes complementarias. Sin signos externos de organomegalia.",
+          "Alterado": [
+            "Distensión visible compatible con organomegalia",
+            "Hernia visible"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Hígado no sobrepasa el arco costal. Bazo no palpable (o borde caudal apenas palpable). Riñones palpables en pacientes delgados. Asas intestinales móviles, sin engrosamiento. Vejiga de tamaño normal.",
+          "Alterado": [
+            "Hepatomegalia palpable",
+            "Esplenomegalia palpable",
+            "Riñón aumentado de tamaño",
+            "Engrosamiento de asas intestinales",
+            "Masa abdominal palpable",
+            "Vejiga distendida (globo vesical)",
+            "Dolor a la palpación de órgano específico"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Motilidad intestinal audible, regular, de frecuencia e intensidad normales.",
+          "Alterado": [
+            "Motilidad intestinal aumentada",
+            "Motilidad intestinal disminuida",
+            "Silencio auscultatorio (íleo paralítico)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Distribución normal de gas y líquido. Matidez hepática presente.",
+          "Alterado": [
+            "Matidez desplazable (líquido libre)",
+            "Timpanismo generalizado",
+            "Pérdida de la matidez hepática (neumoperitoneo)"
+          ]
+        }
+      },
+      "Testículos y Escroto": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Escroto simétrico, sin aumento de volumen, piel íntegra.",
+          "Alterado": [
+            "Asimetría escrotal visible",
+            "Aumento de volumen escrotal",
+            "Eritema escrotal",
+            "Herida o lesión cutánea"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Tono 2 (Firme y Elástico). Simétricos, móviles, indoloros. Epidídimo palpable.",
+          "Alterado": [
+            "Tono 1 (Muy Firme/Fibrosis)",
+            "Tono 3 o 4 (Blando/Fluctuante)",
+            "Asimetría testicular",
+            "Dolor a la palpación",
+            "Criptorquidia (testículo no descendido)",
+            "Masa palpable"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Vulva y Periné": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Tamaño normal, mucosa rosada, sin descargas. Periné limpio, sin lesiones.",
+          "Alterado": [
+            "Edematizada",
+            "Descarga sanguinolenta",
+            "Descarga purulenta",
+            "Descarga mucosa anormal",
+            "Prolapso vaginal",
+            "Lesiones perineales"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Sin dolor perineal. Tono vulvar normal.",
+          "Alterado": [
+            "Dolor perineal",
+            "Masa palpable perineal",
+            "Hipotonía vulvar"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    }
+  },
+  "Felino": {
+    "Examen Objetivo General (EOG)": {
+      "Frecuencia Cardíaca": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "lpm",
+        "rango_referencia": "140-220",
+        "Normal": "140-220 lpm"
+      },
+      "Frecuencia Respiratoria": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "rpm",
+        "rango_referencia": "20-42",
+        "Normal": "20-42 rpm"
+      },
+      "Temperatura": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "°C",
+        "rango_referencia": "38.0-39.2",
+        "Normal": "38.0-39.2 °C"
+      },
+      "TLLC": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "seg",
+        "rango_referencia": "< 2",
+        "Normal": "< 2 seg"
+      },
+      "Facie": {
+        "condicion_visible": "Siempre",
+        "Normal": "Simétrica, compuesta e inteligente",
+        "Alterado": [
+          "Asimétrica",
+          "Descompuesta",
+          "No inteligente"
+        ]
+      },
+      "Actitud - Estación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Decúbito": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Marcha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Conformación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Mesolíneo",
+        "Alterado": [
+          "Brevilíneo",
+          "Longilíneo"
+        ]
+      },
+      "Constitución": {
+        "condicion_visible": "Siempre",
+        "Normal": "Fuerte",
+        "Alterado": [
+          "Débil"
+        ]
+      },
+      "Estado de Nutrición": {
+        "condicion_visible": "Siempre",
+        "Normal": "Bueno",
+        "Alterado": [
+          "Excelente",
+          "Muy bueno",
+          "Regular",
+          "Malo"
+        ]
+      },
+      "Temperamento": {
+        "condicion_visible": "Siempre",
+        "Normal": "Sanguíneo",
+        "Alterado": [
+          "Linfático",
+          "Nervioso"
+        ]
+      },
+      "Mucosa Palpebral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Palpebral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Gingival/Labial": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Prepucial": {
+        "condicion_visible": {
+          "sexo": "Macho"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Vulvar": {
+        "condicion_visible": {
+          "sexo": "Hembra"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Anal": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      }
+    },
+    "Cabeza y Cuello": {
+      "Ojos": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simetría bilateral normal. Pupilas isocóricas. Conjuntiva rosada, sin secreciones. Tercer párpado no visible.",
+          "Alterado": [
+            "Protrusión del tercer párpado",
+            "Secreción ocular serosa",
+            "Secreción ocular purulenta",
+            "Epífora",
+            "Anisocoria",
+            "Blefarospasmo"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Globo ocular normotono. Sin dolor a la presión periocular.",
+          "Alterado": [
+            "Globo ocular tenso (posible glaucoma)",
+            "Globo ocular blando (posible uveítis)",
+            "Dolor periocular",
+            "Masa retrobulbar palpable"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Boca y Nariz": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Mucosa oral rosada, húmeda. Dientes y encías sanas. Narinas permeables, sin secreciones.",
+          "Alterado": [
+            "Secreción nasal serosa",
+            "Secreción nasal purulenta",
+            "Úlceras orales",
+            "Gingivitis / Estomatitis",
+            "Masas orales",
+            "Sialorrea"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Mandíbula firme, sin dolor. Paladar íntegro. Sin masas palpables.",
+          "Alterado": [
+            "Dolor mandibular",
+            "Masa palpable en cavidad oral",
+            "Movilidad dental",
+            "Resorción dental"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Senos paranasales: resonancia normal, simétrica.",
+          "Alterado": [
+            "Matidez unilateral (posible sinusitis/masa)",
+            "Matidez bilateral"
+          ]
+        }
+      },
+      "Ganglios Mandibulares": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simetría visible en la región submandibular. Sin aumento de volumen externo.",
+          "Alterado": [
+            "Asimetría visible",
+            "Aumento de volumen visible"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simétricos, tamaño normal, lisos, firmes, indoloros.",
+          "Alterado": [
+            "Aumentados de tamaño",
+            "Asimétricos",
+            "Dolorosos",
+            "Adheridos a planos profundos"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    },
+    "Tórax": {
+      "Conformación Torácica": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simétrico, movimientos respiratorios sincrónicos costoabdominales. Sin esfuerzo.",
+          "Alterado": [
+            "Asimetría torácica",
+            "Respiración con boca abierta (signo grave en felinos)",
+            "Patrón restrictivo",
+            "Movimientos paradójicos"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Elasticidad costal conservada. Sin frémito palpable. Sin puntos dolorosos.",
+          "Alterado": [
+            "Frémito palpable",
+            "Thrill precordial",
+            "Dolor costal a la palpación",
+            "Crepitación subcutánea"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No corresponde — ver Área Pulmonar y Área Cardíaca para auscultación específica.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No corresponde — ver Área Pulmonar y Área Cardíaca para percusión específica.",
+          "Alterado": []
+        }
+      },
+      "Área Pulmonar": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tipo respiratorio costoabdominal. Frecuencia y profundidad normales. Sin esfuerzo respiratorio.",
+          "Alterado": [
+            "Tipo respiratorio abdominal exclusivo",
+            "Disnea inspiratoria",
+            "Disnea espiratoria",
+            "Disnea mixta",
+            "Respiración con boca abierta"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin frémitos palpables sobre el campo pulmonar.",
+          "Alterado": [
+            "Frémito pleural palpable",
+            "Vibraciones anormales sobre el campo pulmonar"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Murmullo vesicular presente, bilateral, simétrico. Flujo laminar. Sin ruidos agregados.",
+          "Alterado": [
+            "Disminución del murmullo vesicular",
+            "Silencio auscultatorio (posible derrame/neumotórax)",
+            "Crepitaciones",
+            "Sibilancias",
+            "Ruidos cardíacos referidos a campos pulmonares"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sonido claro pulmonar en toda el área topográfica.",
+          "Alterado": [
+            "Matidez (posible consolidación/derrame)",
+            "Sonido submate",
+            "Hipersonoridad (posible neumotórax)"
+          ]
+        }
+      },
+      "Área Cardíaca": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta puede ser visible en hemitórax izquierdo (5°-6° espacio intercostal).",
+          "Alterado": [
+            "Choque de punta no visible",
+            "Choque de punta desplazado",
+            "Choque de punta hiperdinámico"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta palpable en hemitórax izquierdo. Sin frémito precordial (thrill).",
+          "Alterado": [
+            "Thrill sistólico palpable",
+            "Thrill diastólico palpable",
+            "Choque de punta desplazado",
+            "Choque de punta débil o ausente"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Ritmo regular. 1° Ruido (S1 / DUM) y 2° Ruido (S2 / LUP) claros. Sin soplos. FC 140-220 lpm.",
+          "Alterado": [
+            "Soplo sistólico",
+            "Soplo diastólico",
+            "Ritmo de galope (S3/S4)",
+            "Arritmia",
+            "Ruidos cardíacos apagados (posible derrame pericárdico)",
+            "Taquicardia marcada"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Matidez relativa y absoluta del área cardíaca dentro de límites normales.",
+          "Alterado": [
+            "Aumento del área de matidez cardíaca",
+            "Disminución del área de matidez cardíaca"
+          ]
+        }
+      }
+    },
+    "Abdomen y Pelvis": {
+      "Conformación Abdominal": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Forma simétrica, sin abultamientos anormales. Volumen proporcional.",
+          "Alterado": [
+            "Distensión abdominal generalizada",
+            "Distensión abdominal localizada",
+            "Asimetría abdominal",
+            "Abdomen péndulo",
+            "Abdomen excavado"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tensión parietal normal. Blando, depresible, no doloroso.",
+          "Alterado": [
+            "Tensión parietal aumentada",
+            "Dolor a la palpación superficial",
+            "Dolor a la palpación profunda",
+            "Signo de rebote positivo"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Borborigmos (ruidos intestinales) presentes, normales en frecuencia e intensidad.",
+          "Alterado": [
+            "Borborigmos aumentados",
+            "Borborigmos disminuidos",
+            "Silencio abdominal (íleo)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Timpanismo fisiológico sobre asas intestinales. Matidez hepática y vesical normales.",
+          "Alterado": [
+            "Timpanismo generalizado",
+            "Matidez desplazable (ascitis)",
+            "Onda ascítica positiva"
+          ]
+        }
+      },
+      "Órganos Abdominales": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "No valorable sin imágenes complementarias. Sin signos externos de organomegalia.",
+          "Alterado": [
+            "Distensión visible compatible con organomegalia"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Riñones palpables bilateralmente (tamaño y forma normales). Hígado no sobrepasa el arco costal. Vejiga de tamaño normal. Asas intestinales sin engrosamiento.",
+          "Alterado": [
+            "Riñón aumentado de tamaño",
+            "Riñón de contorno irregular",
+            "Hepatomegalia palpable",
+            "Engrosamiento de asas intestinales",
+            "Masa abdominal palpable",
+            "Vejiga distendida",
+            "Dolor a la palpación de órgano específico"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Motilidad intestinal audible, de frecuencia e intensidad normales.",
+          "Alterado": [
+            "Motilidad intestinal aumentada",
+            "Motilidad intestinal disminuida",
+            "Silencio auscultatorio"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Distribución normal de gas y líquido.",
+          "Alterado": [
+            "Matidez desplazable (líquido libre)",
+            "Timpanismo generalizado"
+          ]
+        }
+      },
+      "Testículos": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Escroto simétrico, sin aumento de volumen, piel íntegra.",
+          "Alterado": [
+            "Asimetría escrotal visible",
+            "Aumento de volumen escrotal",
+            "Eritema escrotal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Simétricos, firmes, móviles, indoloros.",
+          "Alterado": [
+            "Asimetría testicular",
+            "Dolor a la palpación",
+            "Criptorquidia (testículo no descendido)",
+            "Aumento de tamaño"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Glándula Mamaria": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Cadena mamaria simétrica, sin aumento de volumen, sin secreciones visibles.",
+          "Alterado": [
+            "Aumento de volumen localizado",
+            "Secreción espontánea",
+            "Eritema cutáneo",
+            "Úlceras"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Sin nódulos, sin secreción, sin dolor. Tejido homogéneo.",
+          "Alterado": [
+            "Nódulos palpables",
+            "Secreción anormal a la expresión",
+            "Dolor",
+            "Aumento de tamaño localizado"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Vulva": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Tamaño normal, mucosa rosada, sin descargas.",
+          "Alterado": [
+            "Edematizada",
+            "Descarga sanguinolenta",
+            "Descarga purulenta",
+            "Descarga mucosa anormal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Sin dolor perineal. Tono vulvar normal.",
+          "Alterado": [
+            "Dolor perineal",
+            "Masa palpable perineal"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    }
+  },
+  "Equino": {
+    "Examen Objetivo General (EOG)": {
+      "Frecuencia Cardíaca": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "lpm",
+        "rango_referencia": "28-40",
+        "Normal": "28-40 lpm"
+      },
+      "Frecuencia Respiratoria": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "rpm",
+        "rango_referencia": "8-16",
+        "Normal": "8-16 rpm"
+      },
+      "Temperatura": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "°C",
+        "rango_referencia": "37.0-38.5",
+        "Normal": "37.0-38.5 °C"
+      },
+      "TLLC": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "seg",
+        "rango_referencia": "< 2",
+        "Normal": "< 2 seg"
+      },
+      "Facie": {
+        "condicion_visible": "Siempre",
+        "Normal": "Simétrica, compuesta e inteligente",
+        "Alterado": [
+          "Asimétrica",
+          "Descompuesta",
+          "No inteligente"
+        ]
+      },
+      "Actitud - Estación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Decúbito": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Marcha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Conformación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Mesolíneo",
+        "Alterado": [
+          "Brevilíneo",
+          "Longilíneo"
+        ]
+      },
+      "Constitución": {
+        "condicion_visible": "Siempre",
+        "Normal": "Fuerte",
+        "Alterado": [
+          "Débil"
+        ]
+      },
+      "Estado de Nutrición": {
+        "condicion_visible": "Siempre",
+        "Normal": "Bueno",
+        "Alterado": [
+          "Excelente",
+          "Muy bueno",
+          "Regular",
+          "Malo"
+        ]
+      },
+      "Temperamento": {
+        "condicion_visible": "Siempre",
+        "Normal": "Sanguíneo",
+        "Alterado": [
+          "Linfático",
+          "Nervioso"
+        ]
+      },
+      "Mucosa Palpebral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Palpebral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Gingival/Labial": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Prepucial": {
+        "condicion_visible": {
+          "sexo": "Macho"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Vulvar": {
+        "condicion_visible": {
+          "sexo": "Hembra"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Anal": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      }
+    },
+    "Cabeza y Cuello": {
+      "Ojos": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simetría bilateral normal. Pupilas isocóricas. Conjuntiva rosada, sin secreciones. Sin epífora.",
+          "Alterado": [
+            "Epífora",
+            "Secreción ocular purulenta",
+            "Blefarospasmo",
+            "Opacidad corneal",
+            "Eritema conjuntival",
+            "Anisocoria"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Globo ocular normotono. Sin dolor periocular. Región supraorbitaria sin edema.",
+          "Alterado": [
+            "Dolor periocular",
+            "Edema supraorbitario",
+            "Globo ocular tenso",
+            "Globo ocular blando"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Boca y Nariz": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Mucosa oral rosada, húmeda. Tabla dentaria sin anomalías. Ollares simétricos, sin secreciones. Flujo de aire bilateral.",
+          "Alterado": [
+            "Secreción nasal unilateral",
+            "Secreción nasal bilateral",
+            "Secreción purulenta",
+            "Halitosis",
+            "Úlceras orales",
+            "Puntas de esmalte",
+            "Flujo de aire unilateral disminuido"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Mandíbula firme, sin dolor. Paladar íntegro. Sin masas palpables.",
+          "Alterado": [
+            "Dolor mandibular",
+            "Masa palpable en cavidad oral",
+            "Movilidad dental",
+            "Inflamación sublingual"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Senos paranasales: resonancia normal, simétrica bilateral (frontal y maxilar).",
+          "Alterado": [
+            "Matidez unilateral (posible sinusitis/masa/empiema)",
+            "Matidez bilateral",
+            "Dolor a la percusión sinusal"
+          ]
+        }
+      },
+      "Bolsas Guturales": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin deformaciones externas en la región parotídea. Simetría normal.",
+          "Alterado": [
+            "Aumento de volumen parotídeo unilateral",
+            "Aumento de volumen parotídeo bilateral",
+            "Deformación visible"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin dolor a la presión. Sin fluctuación. Sin empastamiento.",
+          "Alterado": [
+            "Aumento de volumen (Empastamiento)",
+            "Dolor a la palpación",
+            "Fluctuación (contenido líquido)",
+            "Crepitación (contenido gaseoso)"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Pulso Venoso Yugular": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Pulso Aparente (fisiológico, presistólico). Llenado yugular 7-12 seg. Sin ingurgitación.",
+          "Alterado": [
+            "Pulso Real Positivo (insuficiencia tricuspídea)",
+            "Ingurgitación yugular persistente",
+            "Llenado lento (> 12 seg)",
+            "Llenado acelerado (< 7 seg)",
+            "Pulso yugular retrógrado"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Vena yugular fácilmente compresible. Sin trombosis palpable.",
+          "Alterado": [
+            "Vena yugular tensa / distendida",
+            "Tromboflebitis yugular palpable (cordón firme)",
+            "Dolor a la palpación yugular"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Ganglios Parotídeos y Retrofaríngeos": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simetría visible en la región parotídea y retrofaríngea. Sin aumento de volumen externo.",
+          "Alterado": [
+            "Asimetría visible",
+            "Aumento de volumen visible en región parotídea",
+            "Fístula cutánea"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simétricos, tamaño normal, lisos, firmes, indoloros.",
+          "Alterado": [
+            "Aumentados de tamaño",
+            "Asimétricos",
+            "Dolorosos",
+            "Adheridos a planos profundos",
+            "Calientes",
+            "Fluctuantes (absceso)"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    },
+    "Tórax": {
+      "Conformación Torácica": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simétrico, movimientos respiratorios costoabdominales normales. Profundidad y frecuencia adecuadas.",
+          "Alterado": [
+            "Asimetría torácica",
+            "Uso de musculatura accesoria",
+            "Línea del esfuerzo visible (surco de heaves)",
+            "Movimientos paradójicos",
+            "Tórax aplanado"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Elasticidad costal conservada. Sin frémito palpable. Sin puntos dolorosos.",
+          "Alterado": [
+            "Frémito palpable",
+            "Dolor costal a la palpación",
+            "Crepitación subcutánea (enfisema)",
+            "Fractura costal palpable"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No corresponde — ver Área Pulmonar y Área Cardíaca para auscultación específica.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No corresponde — ver Área Pulmonar y Área Cardíaca para percusión específica.",
+          "Alterado": []
+        }
+      },
+      "Área Pulmonar": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tipo respiratorio costoabdominal. Frecuencia y profundidad normales. Sin esfuerzo respiratorio. Sin línea de heaves.",
+          "Alterado": [
+            "Tipo respiratorio abdominal exclusivo",
+            "Disnea inspiratoria",
+            "Disnea espiratoria (doble golpe espiratorio)",
+            "Disnea mixta",
+            "Aleteo nasal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin frémitos palpables sobre el campo pulmonar.",
+          "Alterado": [
+            "Frémito pleural palpable",
+            "Vibraciones anormales sobre el campo pulmonar"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Murmullo vesicular presente, bilateral, simétrico. Sin ruidos agregados. Rebreathing test normal (intensificación fisiológica del murmullo).",
+          "Alterado": [
+            "Disminución del murmullo vesicular",
+            "Silencio auscultatorio (posible derrame/neumotórax)",
+            "Crepitaciones",
+            "Sibilancias",
+            "Estertores",
+            "Roce pleural"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sonido claro pulmonar. Ángulo caudal del campo pulmonar a nivel de la 10°-11° costilla (línea de la tuberosidad coxal). Límites normales.",
+          "Alterado": [
+            "Matidez (posible consolidación/derrame)",
+            "Desplazamiento craneal del límite caudal",
+            "Desplazamiento caudal del límite caudal (enfisema)",
+            "Hipersonoridad",
+            "Timpanismo"
+          ]
+        }
+      },
+      "Área Cardíaca": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta visible en hemitórax izquierdo (5° espacio intercostal).",
+          "Alterado": [
+            "Choque de punta no visible",
+            "Choque de punta desplazado",
+            "Choque de punta hiperdinámico"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta palpable en hemitórax izquierdo. Sin frémito precordial (thrill).",
+          "Alterado": [
+            "Thrill sistólico palpable",
+            "Thrill diastólico palpable",
+            "Choque de punta desplazado",
+            "Choque de punta débil o ausente"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Ritmo regular. S1 y S2 claros. S3 y S4 pueden ser audibles fisiológicamente. Sin soplos. Bloqueo AV de 2° grado (fisiológico en reposo, desaparece con ejercicio).",
+          "Alterado": [
+            "Soplo sistólico",
+            "Soplo diastólico",
+            "Soplo holodiastólico",
+            "Bloqueo AV de 2° grado que no desaparece con ejercicio",
+            "Fibrilación auricular",
+            "Ritmo de galope patológico",
+            "Ruidos cardíacos apagados (posible derrame pericárdico)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Matidez relativa y absoluta del área cardíaca dentro de límites normales (3°-6° espacio intercostal izquierdo).",
+          "Alterado": [
+            "Aumento del área de matidez cardíaca (cardiomegalia/derrame pericárdico)",
+            "Disminución del área de matidez cardíaca"
+          ]
+        }
+      }
+    },
+    "Abdomen y Pelvis": {
+      "Conformación Abdominal": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Forma simétrica. Flancos levemente cóncavos. Sin distensión. Fosas paralumbares normales.",
+          "Alterado": [
+            "Distensión abdominal generalizada",
+            "Distensión del flanco derecho (ciego/colon)",
+            "Distensión del flanco izquierdo (colon menor/estómago)",
+            "Fosa paralumbar hundida",
+            "Abdomen péndulo"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Palpación externa limitada por tamaño. Tensión parietal normal en flancos. No doloroso a la presión.",
+          "Alterado": [
+            "Tensión parietal aumentada",
+            "Dolor a la presión de flancos",
+            "Distensión palpable"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Borborigmos presentes en los 4 cuadrantes. Cascada cecal en fosa paralumbar derecha (cada 2-3 min). Motilidad colónica audible.",
+          "Alterado": [
+            "Hipermotilidad (borborigmos intensos/frecuentes)",
+            "Hipomotilidad (borborigmos débiles/infrecuentes)",
+            "Ausencia de borborigmos (Íleo)",
+            "Tintineo metálico (posible atrapamiento de gas)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Timpanismo fisiológico en fosa paralumbar derecha (ciego). Matidez ventral. Distribución normal gas/líquido.",
+          "Alterado": [
+            "Timpanismo generalizado (meteorismo/cólico)",
+            "Matidez ventral excesiva (líquido libre/ascitis)",
+            "Percusión dolorosa",
+            "Timpanismo desplazado a flanco izquierdo"
+          ]
+        }
+      },
+      "Intestino (Ciego y Colon)": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin distensión visible de flancos. Defecación normal, materia fecal de consistencia y color normales.",
+          "Alterado": [
+            "Distensión visible del flanco derecho",
+            "Distensión visible del flanco izquierdo",
+            "Diarrea",
+            "Constipación",
+            "Heces con moco/sangre"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Palpación transrectal (si se realiza): contenido intestinal normal, sin impactación, sin desplazamiento de vísceras.",
+          "Alterado": [
+            "Impactación cecal o colónica palpable",
+            "Asas intestinales distendidas",
+            "Bandas mesentéricas tensas",
+            "Dolor a la palpación rectal"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Borborigmos normales en los 4 cuadrantes. Cascada cecal presente en fosa paralumbar derecha. Válvula ileocecal audible.",
+          "Alterado": [
+            "Hipermotilidad",
+            "Hipomotilidad",
+            "Ausencia de borborigmos (Íleo paralítico)",
+            "Tintineo metálico (posible atrapamiento/torsión)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Fosa paralumbar derecha: timpanismo fisiológico (ciego). Distribución normal de gas.",
+          "Alterado": [
+            "Timpanismo difuso (distensión gaseosa patológica)",
+            "Matidez en fosa paralumbar (líquido/impactación)",
+            "Percusión dolorosa"
+          ]
+        }
+      },
+      "Testículos y Escroto": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Escroto simétrico, sin aumento de volumen, piel íntegra.",
+          "Alterado": [
+            "Asimetría escrotal visible",
+            "Aumento de volumen escrotal",
+            "Edema escrotal",
+            "Herida o lesión cutánea"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Simétricos, firmes, elásticos, móviles, indoloros. Epidídimo y cordón espermático normales.",
+          "Alterado": [
+            "Asimetría testicular",
+            "Dolor a la palpación",
+            "Aumento de tamaño",
+            "Adherencias del cordón espermático",
+            "Hernia inguinal"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Ubre / Glándula Mamaria": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Glándula mamaria simétrica, sin aumento de volumen, piel elástica, pezones íntegros.",
+          "Alterado": [
+            "Aumento de volumen localizado",
+            "Asimetría mamaria",
+            "Secreción espontánea",
+            "Edema mamario"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Piel elástica, sin nódulos, sin dolor. Tejido glandular homogéneo.",
+          "Alterado": [
+            "Aumento de volumen",
+            "Calor localizado",
+            "Dolor",
+            "Nódulos palpables",
+            "Secreción anormal a la expresión"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Vulva y Periné": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Tamaño normal, mucosa rosada, sin descargas. Periné limpio, sin lesiones. Conformación perineal normal.",
+          "Alterado": [
+            "Edematizada",
+            "Descarga sanguinolenta",
+            "Descarga purulenta",
+            "Descarga mucosa anormal",
+            "Prolapso vaginal/uterino",
+            "Neumovagina (conformación deficiente)",
+            "Laceraciones perineales"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Sin dolor perineal. Tono vulvar normal. Cérvix cerrado (si se evalúa).",
+          "Alterado": [
+            "Dolor perineal",
+            "Hipotonía vulvar",
+            "Cérvix abierto",
+            "Masa vaginal palpable"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    }
+  },
+  "Bovino": {
+    "Examen Objetivo General (EOG)": {
+      "Frecuencia Cardíaca": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "lpm",
+        "rango_referencia": "40-80",
+        "Normal": "40-80 lpm"
+      },
+      "Frecuencia Respiratoria": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "rpm",
+        "rango_referencia": "10-30",
+        "Normal": "10-30 rpm"
+      },
+      "Temperatura": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "°C",
+        "rango_referencia": "38.0-39.3",
+        "Normal": "38.0-39.3 °C"
+      },
+      "TLLC": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "seg",
+        "rango_referencia": "< 2",
+        "Normal": "< 2 seg"
+      },
+      "Facie": {
+        "condicion_visible": "Siempre",
+        "Normal": "Simétrica, compuesta e inteligente",
+        "Alterado": [
+          "Asimétrica",
+          "Descompuesta",
+          "No inteligente"
+        ]
+      },
+      "Actitud - Estación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Decúbito": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Marcha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Conformación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Mesolíneo",
+        "Alterado": [
+          "Brevilíneo",
+          "Longilíneo"
+        ]
+      },
+      "Constitución": {
+        "condicion_visible": "Siempre",
+        "Normal": "Fuerte",
+        "Alterado": [
+          "Débil"
+        ]
+      },
+      "Estado de Nutrición": {
+        "condicion_visible": "Siempre",
+        "Normal": "Bueno",
+        "Alterado": [
+          "Excelente",
+          "Muy bueno",
+          "Regular",
+          "Malo"
+        ]
+      },
+      "Temperamento": {
+        "condicion_visible": "Siempre",
+        "Normal": "Sanguíneo",
+        "Alterado": [
+          "Linfático",
+          "Nervioso"
+        ]
+      },
+      "Mucosa Palpebral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Palpebral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Gingival/Labial": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Prepucial": {
+        "condicion_visible": {
+          "sexo": "Macho"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Vulvar": {
+        "condicion_visible": {
+          "sexo": "Hembra"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Anal": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      }
+    },
+    "Cabeza y Cuello": {
+      "Ojos y Conjuntivas": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Conjuntiva rosada, sin secreciones, sin opacidades. Pupilas isocóricas.",
+          "Alterado": [
+            "Secreción ocular purulenta",
+            "Opacidad corneal",
+            "Congestión conjuntival",
+            "Epífora",
+            "Queratoconjuntivitis (ojo blanco)"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Globo ocular normotono. Sin dolor periocular. Sin edema periorbitario.",
+          "Alterado": [
+            "Dolor periocular",
+            "Edema periorbitario",
+            "Globo ocular tenso",
+            "Globo ocular blando"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Senos paranasales (frontal): resonancia normal, simétrica.",
+          "Alterado": [
+            "Matidez unilateral (posible sinusitis/tumor)",
+            "Matidez bilateral",
+            "Dolor a la percusión"
+          ]
+        }
+      },
+      "Ganglios Parotídeos y Retrofaríngeos": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simetría visible en la región parotídea y retrofaríngea. Sin aumento de volumen externo.",
+          "Alterado": [
+            "Asimetría visible",
+            "Aumento de volumen visible",
+            "Fístula cutánea (Actinomicosis/Actinobacilosis)"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Simétricos, tamaño normal, lisos, firmes, indoloros.",
+          "Alterado": [
+            "Aumentados de tamaño",
+            "Asimétricos",
+            "Dolorosos",
+            "Adheridos a planos profundos",
+            "Calientes",
+            "Superficie irregular"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    },
+    "Tórax": {
+      "Área Pulmonar": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tipo respiratorio costoabdominal. Frecuencia y profundidad normales. Sin esfuerzo respiratorio.",
+          "Alterado": [
+            "Tipo respiratorio abdominal exclusivo",
+            "Disnea inspiratoria",
+            "Disnea espiratoria",
+            "Disnea mixta",
+            "Tos espontánea"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sin frémitos palpables sobre el campo pulmonar. Sin dolor costal.",
+          "Alterado": [
+            "Frémito pleural palpable",
+            "Dolor costal a la palpación",
+            "Crepitación subcutánea"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Murmullo vesicular presente, bilateral, simétrico. Sin ruidos agregados.",
+          "Alterado": [
+            "Disminución del murmullo vesicular",
+            "Silencio auscultatorio (posible derrame/consolidación)",
+            "Crepitaciones",
+            "Sibilancias",
+            "Estertores húmedos",
+            "Roce pleural",
+            "Soplo tubárico (consolidación)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Sonido claro pulmonar en toda el área topográfica. Límites pulmonares normales.",
+          "Alterado": [
+            "Matidez (posible consolidación/derrame)",
+            "Sonido submate",
+            "Hipersonoridad (posible enfisema)",
+            "Timpanismo",
+            "Desplazamiento del límite caudal"
+          ]
+        }
+      },
+      "Área Cardíaca": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta puede ser visible en hemitórax izquierdo (3°-5° espacio intercostal).",
+          "Alterado": [
+            "Choque de punta no visible",
+            "Choque de punta desplazado",
+            "Ingurgitación yugular (signo indirecto)"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Choque de punta palpable en hemitórax izquierdo. Sin frémito precordial (thrill).",
+          "Alterado": [
+            "Thrill sistólico palpable",
+            "Thrill diastólico palpable",
+            "Choque de punta desplazado",
+            "Choque de punta débil o ausente",
+            "Frémito en área cardíaca"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Ritmo regular. S1 y S2 claros. FC 40-80 lpm. Sin soplos.",
+          "Alterado": [
+            "Soplo sistólico",
+            "Soplo diastólico",
+            "Roce pericárdico (reticulopericarditis traumática)",
+            "Ruidos cardíacos apagados (posible derrame pericárdico)",
+            "Ruidos de chapoteo (pericarditis efusiva)",
+            "Arritmia"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Matidez relativa y absoluta del área cardíaca dentro de límites normales.",
+          "Alterado": [
+            "Aumento del área de matidez cardíaca (derrame pericárdico/cardiomegalia)",
+            "Dolor a la percusión en región xifoidea (reticulopericarditis)"
+          ]
+        }
+      }
+    },
+    "Abdomen y Pelvis": {
+      "Conformación Abdominal": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Forma simétrica (silueta de pera vista posterior). Fosa paralumbar izquierda levemente convexa (rumen).",
+          "Alterado": [
+            "Distensión abdominal generalizada",
+            "Distensión del flanco izquierdo (timpanismo ruminal)",
+            "Asimetría abdominal",
+            "Fosa paralumbar izquierda hundida (vacío ruminal)",
+            "Distensión del flanco derecho (desplazamiento abomasal/ciego)"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tensión parietal normal. No doloroso a la presión. Prueba del pellizco xifoidea negativa.",
+          "Alterado": [
+            "Tensión parietal aumentada",
+            "Dolor a la presión de flancos",
+            "Prueba del pellizco xifoidea positiva (reticuloperitonitis traumática)",
+            "Dolor a la palpación profunda"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Borborigmos intestinales presentes. Motilidad normal del tracto gastrointestinal.",
+          "Alterado": [
+            "Hipermotilidad intestinal",
+            "Hipomotilidad intestinal",
+            "Silencio abdominal (íleo)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Timpanismo fisiológico en fosa paralumbar izquierda (rumen). Matidez ventral normal.",
+          "Alterado": [
+            "Timpanismo generalizado",
+            "Ping metálico en flanco derecho (desplazamiento abomasal derecho / dilatación cecal)",
+            "Ping metálico en flanco izquierdo (desplazamiento abomasal izquierdo)",
+            "Matidez desplazable (ascitis)"
+          ]
+        }
+      },
+      "Rumen": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Fosa paralumbar izquierda con convexidad fisiológica. Movimientos ruminales visibles (ondas ruminales).",
+          "Alterado": [
+            "Distensión marcada de fosa paralumbar izquierda (timpanismo)",
+            "Fosa paralumbar hundida (vacío ruminal/inanición)",
+            "Ausencia de ondas ruminales visibles"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Consistencia pastosa-elástica en fosa paralumbar izquierda. Movimientos ruminales palpables.",
+          "Alterado": [
+            "Consistencia líquida (rumen líquido/acidosis)",
+            "Consistencia dura (sobrecarga ruminal/impactación)",
+            "Distensión gaseosa (timpanismo)",
+            "Ausencia de movimientos ruminales palpables"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "2-3 movimientos ruminales por minuto. Contracciones ruminales audibles (ruido de crepitación / cascada). Eructación presente.",
+          "Alterado": [
+            "Hipomotilidad ruminal (< 2 mov/min)",
+            "Atonía ruminal (0 mov/min)",
+            "Timpanismo ruminal (sonido metálico)",
+            "Hipermotilidad ruminal (> 3 mov/min)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Timpanismo dorsal fisiológico (cúpula gaseosa), matidez ventral (contenido líquido/sólido). Zona de transición normal.",
+          "Alterado": [
+            "Timpanismo generalizado (timpanismo ruminal agudo)",
+            "Matidez generalizada (sobrecarga ruminal)",
+            "Ping metálico (gas atrapado patológico)",
+            "Percusión dolorosa"
+          ]
+        }
+      },
+      "Testículos y Escroto": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Escroto simétrico, sin aumento de volumen, piel íntegra.",
+          "Alterado": [
+            "Asimetría escrotal visible",
+            "Aumento de volumen escrotal",
+            "Edema escrotal",
+            "Herida o lesión cutánea"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Simétricos, firmes, elásticos, móviles, indoloros. Epidídimo y cordón espermático normales.",
+          "Alterado": [
+            "Asimetría testicular",
+            "Dolor a la palpación",
+            "Aumento de tamaño",
+            "Adherencias",
+            "Hernia inguinal/escrotal"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Ubre y Pezones": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Cuartos simétricos, piel elástica, sin edema. Pezones íntegros, sin lesiones.",
+          "Alterado": [
+            "Cuarto aumentado de volumen",
+            "Edema de ubre",
+            "Eritema cutáneo",
+            "Lesiones en pezones (papilomas/heridas)",
+            "Secreción espontánea anormal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Cuartos simétricos, piel elástica, sin nódulos, sin dolor. Leche normal (sin grumos, color blanco).",
+          "Alterado": [
+            "Cuarto aumentado (mastitis)",
+            "Calor localizado",
+            "Dolor a la palpación",
+            "Nódulos / induraciones",
+            "Leche con grumos (mastitis clínica)",
+            "Leche con sangre",
+            "Obstrucción del canal del pezón"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Vulva y Periné": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Tamaño normal, mucosa rosada, sin descargas. Periné limpio, sin lesiones.",
+          "Alterado": [
+            "Edematizada",
+            "Descarga sanguinolenta",
+            "Descarga purulenta",
+            "Descarga mucosa anormal",
+            "Prolapso vaginal/uterino",
+            "Laceraciones perineales"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Sin dolor perineal. Tono vulvar normal.",
+          "Alterado": [
+            "Dolor perineal",
+            "Hipotonía vulvar",
+            "Masa palpable vaginal"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    }
+  },
+  "Porcino": {
+    "Examen Objetivo General (EOG)": {
+      "Frecuencia Cardíaca": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "lpm",
+        "rango_referencia": "60-100",
+        "Normal": "60-100 lpm"
+      },
+      "Frecuencia Respiratoria": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "rpm",
+        "rango_referencia": "8-18",
+        "Normal": "8-18 rpm"
+      },
+      "Temperatura": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "°C",
+        "rango_referencia": "38.7-39.8",
+        "Normal": "38.7-39.8 °C"
+      },
+      "TLLC": {
+        "tipo_input": "numerico",
+        "condicion_visible": "Siempre",
+        "unidad": "seg",
+        "rango_referencia": "< 2",
+        "Normal": "< 2 seg"
+      },
+      "Facie": {
+        "condicion_visible": "Siempre",
+        "Normal": "Simétrica, compuesta e inteligente",
+        "Alterado": [
+          "Asimétrica",
+          "Descompuesta",
+          "No inteligente"
+        ]
+      },
+      "Actitud - Estación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Decúbito": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Actitud - Marcha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Anormal"
+        ]
+      },
+      "Conformación": {
+        "condicion_visible": "Siempre",
+        "Normal": "Mesolíneo",
+        "Alterado": [
+          "Brevilíneo",
+          "Longilíneo"
+        ]
+      },
+      "Constitución": {
+        "condicion_visible": "Siempre",
+        "Normal": "Fuerte",
+        "Alterado": [
+          "Débil"
+        ]
+      },
+      "Estado de Nutrición": {
+        "condicion_visible": "Siempre",
+        "Normal": "Bueno",
+        "Alterado": [
+          "Excelente",
+          "Muy bueno",
+          "Regular",
+          "Malo"
+        ]
+      },
+      "Temperamento": {
+        "condicion_visible": "Siempre",
+        "Normal": "Sanguíneo",
+        "Alterado": [
+          "Linfático",
+          "Nervioso"
+        ]
+      },
+      "Mucosa Palpebral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Palpebral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Escleral Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Izquierda": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Nasal Derecha": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Gingival/Labial": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Prepucial": {
+        "condicion_visible": {
+          "sexo": "Macho"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Vulvar": {
+        "condicion_visible": {
+          "sexo": "Hembra"
+        },
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      },
+      "Mucosa Anal": {
+        "condicion_visible": "Siempre",
+        "Normal": "Normal",
+        "Alterado": [
+          "Congestiva",
+          "Pálida",
+          "Ictérica",
+          "Cianótica"
+        ]
+      }
+    },
+    "Cabeza y Cuello": {
+      "Hocico / Disco Nasal": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Húmedo, rosado, sin secreciones, sin deformaciones. Disco nasal íntegro.",
+          "Alterado": [
+            "Secreción nasal serosa",
+            "Secreción nasal purulenta",
+            "Desviación del tabique nasal",
+            "Costras",
+            "Vesículas / Erosiones en disco nasal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Exploración limitada por anatomía / conformación corporal.",
+          "Alterado": []
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Ojos": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Conjuntiva rosada, sin secreciones, sin lagrimeo excesivo. Pupilas isocóricas.",
+          "Alterado": [
+            "Secreción ocular serosa",
+            "Secreción ocular purulenta",
+            "Edema palpebral",
+            "Congestión conjuntival",
+            "Opacidad corneal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Exploración limitada por anatomía / conformación corporal.",
+          "Alterado": []
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    },
+    "Tórax": {
+      "Área Pulmonar": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Tipo respiratorio costoabdominal. Frecuencia y profundidad normales. Sin esfuerzo respiratorio.",
+          "Alterado": [
+            "Tipo respiratorio abdominal exclusivo",
+            "Disnea inspiratoria",
+            "Disnea espiratoria",
+            "Disnea mixta",
+            "Tos espontánea"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Exploración limitada por anatomía / gruesa capa adiposa subcutánea.",
+          "Alterado": []
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Murmullo vesicular presente. Sin ruidos agregados. Auscultación puede requerir ambiente silencioso por vocalización.",
+          "Alterado": [
+            "Crepitaciones",
+            "Sibilancias",
+            "Zonas de silencio auscultatorio",
+            "Estertores húmedos",
+            "Soplo tubárico"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Exploración limitada por anatomía / gruesa capa adiposa subcutánea. Percusión poco valorable.",
+          "Alterado": []
+        }
+      }
+    },
+    "Abdomen y Pelvis": {
+      "Conformación Abdominal": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Forma simétrica, sin abultamientos anormales. Volumen proporcional.",
+          "Alterado": [
+            "Distensión abdominal generalizada",
+            "Distensión abdominal localizada",
+            "Asimetría abdominal",
+            "Hernia umbilical",
+            "Hernia inguinal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Exploración limitada por anatomía / conformación corporal. Hernias evaluables si están presentes.",
+          "Alterado": [
+            "Hernia umbilical reductible",
+            "Hernia umbilical irreductible",
+            "Dolor a la palpación abdominal"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Borborigmos (ruidos intestinales) presentes. Motilidad normal.",
+          "Alterado": [
+            "Borborigmos aumentados (hipermotilidad)",
+            "Borborigmos disminuidos (hipomotilidad)",
+            "Silencio abdominal (íleo)"
+          ]
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "Exploración limitada por anatomía / gruesa capa adiposa. Percusión poco valorable.",
+          "Alterado": []
+        }
+      },
+      "Extremidades y Pezuñas": {
+        "Inspección": {
+          "condicion_visible": "Siempre",
+          "Normal": "Aplomos normales, pezuñas simétricas, sin lesiones. Marcha normal.",
+          "Alterado": [
+            "Claudicación",
+            "Sobrecrecimiento de pezuñas",
+            "Erosiones de pezuñas",
+            "Articulaciones aumentadas de volumen",
+            "Úlceras en banda coronaria",
+            "Vesículas interdigitales"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": "Siempre",
+          "Normal": "Articulaciones sin dolor, sin calor, sin aumento de volumen. Pezuñas firmes.",
+          "Alterado": [
+            "Articulación caliente",
+            "Articulación dolorosa",
+            "Articulación aumentada de volumen (artritis)",
+            "Fluctuación articular",
+            "Crepitación"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": "Siempre",
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Testículos": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Escroto simétrico, sin aumento de volumen, piel íntegra.",
+          "Alterado": [
+            "Asimetría escrotal visible",
+            "Aumento de volumen escrotal",
+            "Eritema escrotal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "Simétricos, firmes, móviles, indoloros.",
+          "Alterado": [
+            "Asimetría testicular",
+            "Dolor a la palpación",
+            "Aumento de tamaño",
+            "Criptorquidia"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Macho",
+            "estado_reproductivo": "Entero"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Glándula Mamaria": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Cadena mamaria simétrica, pezones íntegros, sin secreciones anormales visibles.",
+          "Alterado": [
+            "Aumento de volumen localizado",
+            "Pezones invertidos",
+            "Eritema cutáneo",
+            "Secreción espontánea anormal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Sin nódulos, sin secreción anormal, pezones íntegros. Sin dolor.",
+          "Alterado": [
+            "Nódulos palpables",
+            "Secreción purulenta a la expresión",
+            "Pezones invertidos",
+            "Calor localizado",
+            "Dolor a la palpación"
+          ]
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      },
+      "Vulva": {
+        "Inspección": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Tamaño normal, mucosa rosada, sin descargas.",
+          "Alterado": [
+            "Edematizada",
+            "Descarga sanguinolenta",
+            "Descarga purulenta",
+            "Descarga mucosa anormal"
+          ]
+        },
+        "Palpación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "Exploración limitada por anatomía / conformación corporal.",
+          "Alterado": []
+        },
+        "Auscultación": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        },
+        "Percusión": {
+          "condicion_visible": {
+            "sexo": "Hembra"
+          },
+          "Normal": "No aplicable en esta región.",
+          "Alterado": []
+        }
+      }
+    }
+  }
+}
