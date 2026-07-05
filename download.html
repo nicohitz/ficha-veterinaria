@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Descargando...</title>
+</head>
+<body>
+    <h3 id="status-text" style="font-family: sans-serif; text-align: center; margin-top: 50px; color: #333;">
+        Procesando descarga, por favor espera...
+    </h3>
+    <script>
+        try {
+            let filename = null;
+            let b64Data = null;
+            let mimeType = null;
+
+            // Flet almacena en localStorage con prefijos. Escaneamos las claves que terminen con nuestros nombres
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key.endsWith("download_filename")) {
+                    let val = localStorage.getItem(key);
+                    try { filename = JSON.parse(val); } catch(e) { filename = val; }
+                }
+                if (key.endsWith("download_data")) {
+                    let val = localStorage.getItem(key);
+                    try { b64Data = JSON.parse(val); } catch(e) { b64Data = val; }
+                }
+                if (key.endsWith("download_mime")) {
+                    let val = localStorage.getItem(key);
+                    try { mimeType = JSON.parse(val); } catch(e) { mimeType = val; }
+                }
+            }
+
+            if (filename && b64Data && mimeType) {
+                // Limpiar localStorage para que no se repita
+                for (let i = localStorage.length - 1; i >= 0; i--) {
+                    const key = localStorage.key(i);
+                    if (key.endsWith("download_filename") || key.endsWith("download_data") || key.endsWith("download_mime")) {
+                        localStorage.removeItem(key);
+                    }
+                }
+
+                // Convertir base64 a Blob
+                const byteCharacters = atob(b64Data);
+                const byteNumbers = new Array(byteCharacters.length);
+                for (let i = 0; i < byteCharacters.length; i++) {
+                    byteNumbers[i] = byteCharacters.charCodeAt(i);
+                }
+                const byteArray = new Uint8Array(byteNumbers);
+                const blob = new Blob([byteArray], { type: mimeType });
+
+                // Crear link de descarga nativo
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+                document.getElementById("status-text").innerText = "¡Descarga iniciada con éxito! Esta pestaña se cerrará sola.";
+                
+                // Cerrar la pestaña tras un breve delay
+                setTimeout(() => {
+                    window.close();
+                }, 1500);
+            } else {
+                document.getElementById("status-text").innerHTML = 
+                    '<span style="color: red;">Error: No se encontraron datos para la descarga. Por favor vuelve a intentarlo.</span>';
+            }
+        } catch (err) {
+            document.getElementById("status-text").innerHTML = 
+                '<span style="color: red;">Error crítico en descarga: ' + err.message + '</span>';
+        }
+    </script>
+</body>
+</html>
