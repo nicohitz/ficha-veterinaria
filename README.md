@@ -1,2 +1,0 @@
-# ficha-veterinaria
-Vicha veterinaria
